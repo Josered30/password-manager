@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/joser/Desktop/password-manager/src/encryption.cpp" "CMakeFiles/manager.dir/src/encryption.cpp.obj" "gcc" "CMakeFiles/manager.dir/src/encryption.cpp.obj.d"
-  "C:/Users/joser/Desktop/password-manager/src/generator.cpp" "CMakeFiles/manager.dir/src/generator.cpp.obj" "gcc" "CMakeFiles/manager.dir/src/generator.cpp.obj.d"
-  "C:/Users/joser/Desktop/password-manager/src/main.cpp" "CMakeFiles/manager.dir/src/main.cpp.obj" "gcc" "CMakeFiles/manager.dir/src/main.cpp.obj.d"
-  "C:/Users/joser/Desktop/password-manager/src/manager.cpp" "CMakeFiles/manager.dir/src/manager.cpp.obj" "gcc" "CMakeFiles/manager.dir/src/manager.cpp.obj.d"
+  "E:/VS Code/password-manager-cmake/src/encryption.cpp" "CMakeFiles/manager.dir/src/encryption.cpp.obj" "gcc" "CMakeFiles/manager.dir/src/encryption.cpp.obj.d"
+  "E:/VS Code/password-manager-cmake/src/generator.cpp" "CMakeFiles/manager.dir/src/generator.cpp.obj" "gcc" "CMakeFiles/manager.dir/src/generator.cpp.obj.d"
+  "E:/VS Code/password-manager-cmake/src/main.cpp" "CMakeFiles/manager.dir/src/main.cpp.obj" "gcc" "CMakeFiles/manager.dir/src/main.cpp.obj.d"
+  "E:/VS Code/password-manager-cmake/src/manager.cpp" "CMakeFiles/manager.dir/src/manager.cpp.obj" "gcc" "CMakeFiles/manager.dir/src/manager.cpp.obj.d"
   )
 
 # Targets to which this target links.

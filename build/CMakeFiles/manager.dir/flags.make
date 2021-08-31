@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/manager.dir/includes_CXX.rsp
 
-CXX_FLAGS = -Wall -Wextra -O3
+CXX_FLAGS = -Wall -Wextra -DDEBUG -g
 

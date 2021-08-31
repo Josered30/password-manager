@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\joser\Desktop\password-manager
+CMAKE_SOURCE_DIR = "E:\VS Code\password-manager-cmake"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\joser\Desktop\password-manager\build
+CMAKE_BINARY_DIR = "E:\VS Code\password-manager-cmake\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/manager.dir/depend.make
@@ -72,61 +72,61 @@ CMakeFiles/manager.dir/src/encryption.cpp.obj: CMakeFiles/manager.dir/flags.make
 CMakeFiles/manager.dir/src/encryption.cpp.obj: CMakeFiles/manager.dir/includes_CXX.rsp
 CMakeFiles/manager.dir/src/encryption.cpp.obj: ../src/encryption.cpp
 CMakeFiles/manager.dir/src/encryption.cpp.obj: CMakeFiles/manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joser\Desktop\password-manager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/manager.dir/src/encryption.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manager.dir/src/encryption.cpp.obj -MF CMakeFiles\manager.dir\src\encryption.cpp.obj.d -o CMakeFiles\manager.dir\src\encryption.cpp.obj -c C:\Users\joser\Desktop\password-manager\src\encryption.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\VS Code\password-manager-cmake\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/manager.dir/src/encryption.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manager.dir/src/encryption.cpp.obj -MF CMakeFiles\manager.dir\src\encryption.cpp.obj.d -o CMakeFiles\manager.dir\src\encryption.cpp.obj -c "E:\VS Code\password-manager-cmake\src\encryption.cpp"
 
 CMakeFiles/manager.dir/src/encryption.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager.dir/src/encryption.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joser\Desktop\password-manager\src\encryption.cpp > CMakeFiles\manager.dir\src\encryption.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\VS Code\password-manager-cmake\src\encryption.cpp" > CMakeFiles\manager.dir\src\encryption.cpp.i
 
 CMakeFiles/manager.dir/src/encryption.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager.dir/src/encryption.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joser\Desktop\password-manager\src\encryption.cpp -o CMakeFiles\manager.dir\src\encryption.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\VS Code\password-manager-cmake\src\encryption.cpp" -o CMakeFiles\manager.dir\src\encryption.cpp.s
 
 CMakeFiles/manager.dir/src/generator.cpp.obj: CMakeFiles/manager.dir/flags.make
 CMakeFiles/manager.dir/src/generator.cpp.obj: CMakeFiles/manager.dir/includes_CXX.rsp
 CMakeFiles/manager.dir/src/generator.cpp.obj: ../src/generator.cpp
 CMakeFiles/manager.dir/src/generator.cpp.obj: CMakeFiles/manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joser\Desktop\password-manager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/manager.dir/src/generator.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manager.dir/src/generator.cpp.obj -MF CMakeFiles\manager.dir\src\generator.cpp.obj.d -o CMakeFiles\manager.dir\src\generator.cpp.obj -c C:\Users\joser\Desktop\password-manager\src\generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\VS Code\password-manager-cmake\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/manager.dir/src/generator.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manager.dir/src/generator.cpp.obj -MF CMakeFiles\manager.dir\src\generator.cpp.obj.d -o CMakeFiles\manager.dir\src\generator.cpp.obj -c "E:\VS Code\password-manager-cmake\src\generator.cpp"
 
 CMakeFiles/manager.dir/src/generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager.dir/src/generator.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joser\Desktop\password-manager\src\generator.cpp > CMakeFiles\manager.dir\src\generator.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\VS Code\password-manager-cmake\src\generator.cpp" > CMakeFiles\manager.dir\src\generator.cpp.i
 
 CMakeFiles/manager.dir/src/generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager.dir/src/generator.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joser\Desktop\password-manager\src\generator.cpp -o CMakeFiles\manager.dir\src\generator.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\VS Code\password-manager-cmake\src\generator.cpp" -o CMakeFiles\manager.dir\src\generator.cpp.s
 
 CMakeFiles/manager.dir/src/main.cpp.obj: CMakeFiles/manager.dir/flags.make
 CMakeFiles/manager.dir/src/main.cpp.obj: CMakeFiles/manager.dir/includes_CXX.rsp
 CMakeFiles/manager.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/manager.dir/src/main.cpp.obj: CMakeFiles/manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joser\Desktop\password-manager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/manager.dir/src/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manager.dir/src/main.cpp.obj -MF CMakeFiles\manager.dir\src\main.cpp.obj.d -o CMakeFiles\manager.dir\src\main.cpp.obj -c C:\Users\joser\Desktop\password-manager\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\VS Code\password-manager-cmake\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/manager.dir/src/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manager.dir/src/main.cpp.obj -MF CMakeFiles\manager.dir\src\main.cpp.obj.d -o CMakeFiles\manager.dir\src\main.cpp.obj -c "E:\VS Code\password-manager-cmake\src\main.cpp"
 
 CMakeFiles/manager.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager.dir/src/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joser\Desktop\password-manager\src\main.cpp > CMakeFiles\manager.dir\src\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\VS Code\password-manager-cmake\src\main.cpp" > CMakeFiles\manager.dir\src\main.cpp.i
 
 CMakeFiles/manager.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager.dir/src/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joser\Desktop\password-manager\src\main.cpp -o CMakeFiles\manager.dir\src\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\VS Code\password-manager-cmake\src\main.cpp" -o CMakeFiles\manager.dir\src\main.cpp.s
 
 CMakeFiles/manager.dir/src/manager.cpp.obj: CMakeFiles/manager.dir/flags.make
 CMakeFiles/manager.dir/src/manager.cpp.obj: CMakeFiles/manager.dir/includes_CXX.rsp
 CMakeFiles/manager.dir/src/manager.cpp.obj: ../src/manager.cpp
 CMakeFiles/manager.dir/src/manager.cpp.obj: CMakeFiles/manager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joser\Desktop\password-manager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/manager.dir/src/manager.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manager.dir/src/manager.cpp.obj -MF CMakeFiles\manager.dir\src\manager.cpp.obj.d -o CMakeFiles\manager.dir\src\manager.cpp.obj -c C:\Users\joser\Desktop\password-manager\src\manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\VS Code\password-manager-cmake\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/manager.dir/src/manager.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/manager.dir/src/manager.cpp.obj -MF CMakeFiles\manager.dir\src\manager.cpp.obj.d -o CMakeFiles\manager.dir\src\manager.cpp.obj -c "E:\VS Code\password-manager-cmake\src\manager.cpp"
 
 CMakeFiles/manager.dir/src/manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager.dir/src/manager.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joser\Desktop\password-manager\src\manager.cpp > CMakeFiles\manager.dir\src\manager.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\VS Code\password-manager-cmake\src\manager.cpp" > CMakeFiles\manager.dir\src\manager.cpp.i
 
 CMakeFiles/manager.dir/src/manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager.dir/src/manager.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joser\Desktop\password-manager\src\manager.cpp -o CMakeFiles\manager.dir\src\manager.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\VS Code\password-manager-cmake\src\manager.cpp" -o CMakeFiles\manager.dir\src\manager.cpp.s
 
 # Object files for target manager
 manager_OBJECTS = \
@@ -146,7 +146,7 @@ manager.exe: CMakeFiles/manager.dir/build.make
 manager.exe: CMakeFiles/manager.dir/linklibs.rsp
 manager.exe: CMakeFiles/manager.dir/objects1.rsp
 manager.exe: CMakeFiles/manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\joser\Desktop\password-manager\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable manager.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\VS Code\password-manager-cmake\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable manager.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\manager.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/manager.dir/clean:
 .PHONY : CMakeFiles/manager.dir/clean
 
 CMakeFiles/manager.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\joser\Desktop\password-manager C:\Users\joser\Desktop\password-manager C:\Users\joser\Desktop\password-manager\build C:\Users\joser\Desktop\password-manager\build C:\Users\joser\Desktop\password-manager\build\CMakeFiles\manager.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\VS Code\password-manager-cmake" "E:\VS Code\password-manager-cmake" "E:\VS Code\password-manager-cmake\build" "E:\VS Code\password-manager-cmake\build" "E:\VS Code\password-manager-cmake\build\CMakeFiles\manager.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/manager.dir/depend
 

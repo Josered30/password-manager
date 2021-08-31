@@ -1,4 +1,3 @@
 .vscode/
-build/apps/
-build/objects/
+build/
 lib/

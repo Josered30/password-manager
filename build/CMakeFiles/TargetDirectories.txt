@@ -1,3 +1,7 @@
-C:/Users/joser/Desktop/password-manager/build/CMakeFiles/manager.dir
-C:/Users/joser/Desktop/password-manager/build/CMakeFiles/edit_cache.dir
-C:/Users/joser/Desktop/password-manager/build/CMakeFiles/rebuild_cache.dir
+E:/VS Code/password-manager-cmake/build/CMakeFiles/manager.dir
+E:/VS Code/password-manager-cmake/build/CMakeFiles/install/local.dir
+E:/VS Code/password-manager-cmake/build/CMakeFiles/install.dir
+E:/VS Code/password-manager-cmake/build/CMakeFiles/edit_cache.dir
+E:/VS Code/password-manager-cmake/build/CMakeFiles/rebuild_cache.dir
+E:/VS Code/password-manager-cmake/build/CMakeFiles/list_install_components.dir
+E:/VS Code/password-manager-cmake/build/CMakeFiles/install/strip.dir

@@ -81,14 +81,9 @@ int main(int argsc, char *argv[])
                       std::string key = e.first;
                       std::string value = e.second;
 
-                      if (key == "-n")
-                      {
-                          number = value == "true" ? true : false;
-                      }
-
                       if (key == "-s")
                       {
-                          special = value == "true" ? true : false;
+                          special = true;
                       }
 
                       if (key == "-l")
